@@ -22,8 +22,21 @@ We built our page using a simple HTML layout to begin. JavaScript was used for f
 Edin Hurem, Felix Petzsche, Sean Duiser
 
 Sean Duiser:
+<br></br>
 sean.duiser.develop@gmail.com
+<br></br>
 704-296-8335
+<br></br>
+<br></br>
+Felix Petzsche:
+<br></br>
+felix1805@gmail.com
+<br></br>
+<br></br>
+Edin Hurem
+<br></br>
+
+
 
 ## Deployed Link
 https://github.com/Sean-Duiser/national-park-weather
