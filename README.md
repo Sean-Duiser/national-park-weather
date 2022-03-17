@@ -29,6 +29,7 @@ Felix Petzsche:
 felix1805@gmail.com
 
 Edin Hurem
+edinhurem@gmail.com
 
 
 ## Deployed Link
