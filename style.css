@@ -1,0 +1,367 @@
+/* this is a custom made from scratch style sheet - we did not use any 3rd party CSS frameworks */
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+title {
+    display: none;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    background-image: url(./assets/yosemite.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div {
+    display:flex
+}
+
+h1 {
+    color: seashell;
+    text-shadow: black 2px 2px;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: 100px;
+}
+
+h2 {
+    color:seashell;
+    border: solid 1px black;
+    background-color:forestgreen;
+    text-align: center;
+    width: 90%;
+}
+
+h2:hover {
+    color: forestgreen;
+    background-color: seashell;
+}
+
+h3  {
+    text-align: center;
+    margin-top: 0;
+    color: seashell;
+    text-shadow: black 2px 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#history {
+    background-color:seashell;
+    text-align: center;
+    padding-left: 0;
+    border-radius: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    opacity: 80%;
+}
+
+#historyItems {
+    display: inline-block;
+    width: 100%;
+    color: seashell;
+    background-color: forestgreen;
+    border:1px solid seashell;
+    border-radius: 2px;
+    align-items: center;
+    height: 42px;
+    font-size: large;
+    
+}
+
+#historyItems:hover {
+    color: forestgreen;
+    background-color: seashell;
+
+}
+
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+#results {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+#stateSearch {
+    height: 30px;
+    border-radius: 3px;
+    border: 1px black solid;
+    margin-bottom: 1px;
+}
+
+#submitBtn {
+    margin-bottom: 20px;
+    opacity: 80%;
+    height: 42px;
+    background-color: skyblue;
+    color:black;
+    text-shadow: white 1px 1px;
+    border-radius: 4px;
+    font-size: large;
+}
+
+#submitBtn:hover {
+    color: skyblue;
+    background-color: black;
+}
+
+
+
+#weatherCard {
+    background-color: rgba(76, 191, 236, 0.794);
+    border: 1px solid black;
+    text-align: center;
+    text-shadow: black 1px 1px;
+    color: white;
+    display: block;
+    width: 90%;
+    border-radius: 5px;
+}
+
+#weatherCard:hover {
+    background-image: url(https://cdn.discordapp.com/attachments/951623058970509372/951662325058924544/6544b4e15a031c6e94975dbeaabf9665.gif);
+    background-size: cover;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    border: 0;
+    background-color: transparent;
+}
+
+#weatherCard:hover > #weathHead {
+    background-color: rgba(76, 191, 236, 0.794);
+    border: 0;
+    background-color: transparent;
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+#weatherCards {
+    flex-direction: column;
+}
+
+#weathHead {
+    color:seashell;
+    background-color:dodgerblue;
+    font-size: x-large;
+    margin-top: 0px;
+    border-bottom: black 1px solid;
+    border-radius: 5px 5px 0 0;
+}
+
+#parkCard {
+    border: solid 1px black;
+    background-color: rgb(117, 149, 62);
+    margin-bottom: 3px;
+    margin-left: 3px;
+    padding: 5px;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#parkName {
+    border-radius: 5px;
+}
+
+#parkDesc {
+    color: seashell;
+    text-align: justify;
+    width: 90%;
+    display: flex;
+    padding: 5px;
+}
+
+#parkDesc:hover{
+    background-color: rgba(78, 105, 25, 0.767);
+    border-radius: 5px;
+    font-size: 105%;
+}
+
+#parkPic {
+    width: 500px;
+    display: flex;
+    border-radius: 5px;
+}
+
+#parkPic:hover {
+    filter:drop-shadow(10px 10px 10px black);
+}
+
+#parkAlt {
+    display: none;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+#formHead {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+h1:hover {
+    background-image: url(https://cdn.discordapp.com/attachments/951623058970509372/951656071355859044/angry-panda.gif);
+    background-position-y: center;
+    background-size:cover;
+}
+
+#currentDate {
+    text-align: center;
+    color: seashell;
+    text-shadow: black 2px 2px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.history-container{
+    width: 100%!important;
+}
+
+@media only screen and (max-width: 1400px) {
+    #parkPic {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    #parkPic {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #parkPic {
+        width: 135px;
+    }
+    * {
+        font-size: small;
+        display: flex;
+        flex-direction: column;
+    }
+    #weathHead {
+        font-size: small;
+    }
+    h1 {
+        height: 50%;
+    }
+    #submitBtn {
+        display: flex;
+        align-items: center;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+    #stateSearch {
+        display: flex;
+        align-items: center;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+    ul {
+        display: flex;
+        align-items: center;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+    .history-container{
+        display: inline-block;
+    }
+    
+    #historyItems{
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 484px) {
+    #form{
+        background-image: url('assets/yosemite.jpg');
+    }
+
+    .history-container{
+        display: inline-block;
+    }
+    
+    #historyItems{
+        width: 20%;
+    }
+
+    #parkPic {
+        width: 100px;
+    }
+    * {
+        font-size: x-small;
+        display: flex;
+        flex-direction: column;
+    }
+    #weathHead {
+        font-size: x-small;
+    }
+    h1 {
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+
+    #parkPic {
+        width: 80px;
+    }
+    * {
+        box-sizing: border-box;
+        font-size: x-small;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #weathHead {
+        font-size: x-small;
+    }
+    #parkCard {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    #form {
+        box-sizing: border-box;
+        font-size: x-small;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #history {
+        display:inline-block;
+    
+    }
+    #historyItems {
+        display: inline-block;
+    }
+    h1 {
+        height: 50%;
+    }
+}           
