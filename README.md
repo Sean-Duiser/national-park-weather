@@ -21,7 +21,11 @@ We built our page using a simple HTML layout to begin. JavaScript was used for f
 ## Authors and Acknowledgements
 Edin Hurem, Felix Petzsche, Sean Duiser
 
+Sean Duiser:
+sean.duiser.develop@gmail.com
+704-296-8335
+
 ## Deployed Link
-https://github.com/felix1805/State-Park-Weather
+https://github.com/Sean-Duiser/national-park-weather
 <br></br>
-https://felix1805.github.io/State-Park-Weather/
+https://sean-duiser.github.io/national-park-weather/
