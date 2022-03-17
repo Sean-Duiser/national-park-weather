@@ -224,11 +224,11 @@ h3  {
     justify-content: center;
 }
 
-h1:hover {
+/* h1:hover {
     background-image: url(https://cdn.discordapp.com/attachments/951623058970509372/951656071355859044/angry-panda.gif);
     background-position-y: center;
     background-size:cover;
-}
+} */
 
 #currentDate {
     text-align: center;
